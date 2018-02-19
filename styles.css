@@ -1,0 +1,158 @@
+.fold {
+  position: relative;
+  height: 125vh;
+}
+
+.background {
+  width: 100%;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(61, 70, 100, 0.86);
+}
+
+.content {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  opacity: 0.5;
+  font-weight: 500;
+  margin-bottom: 50px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+}
+
+.logo {
+  max-width: 240px;
+}
+
+ul {
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+li {
+  display: inline;
+  padding: 2px;
+}
+
+.contact {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.phone {
+  font-weight: 400;
+}
+
+.email {
+  font-weight: 100;
+}
+
+.btn {
+  position: relative;
+  background-color: #5170dd;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  padding: 12px 35px;
+  border-radius: 50px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header-phones {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.center {
+  height: auto;
+  width: 330px;
+  position: relative;
+  z-index: 2;
+}
+
+.shadow {
+  box-shadow: -50px 0 50px 0 rgba(0, 0, 0, 0.5), 90px 0 50px 0 rgba(0, 0, 0, 0.5);
+  top: 45px;
+  left: 420px;
+  height: 625px;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+}
+
+.left {
+  width: 310px;
+  position: relative;
+  left: 75px;
+}
+
+.right {
+  width: 310px;
+  position: relative;
+  right: 75px;
+}
+
+.benefits-front {
+  width: 266px;
+  position: absolute;
+  float: right;
+}
+
+.container {
+  background-color: #fff;
+  height: 80vh;
+}
+
+.row {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 52px;
+  font-weight: 300;
+  color: #5a646e;
+  -webkit-font-smoothing: antialiased;
+}
