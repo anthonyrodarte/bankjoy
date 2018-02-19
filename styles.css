@@ -152,7 +152,24 @@ a {
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 52px;
-  font-weight: 300;
+  font-weight: 100;
   color: #5a646e;
   -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-size: 19px;
+  font-weight: lighter;
+  color: #5a646e;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-left: 1px solid;
+  border-color: #5170dd;
+  padding-left: 5%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.benefits-col1 {
+  float: left;
+  margin-top: auto;
+  width: 50%;
 }
