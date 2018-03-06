@@ -1,6 +1,6 @@
 .fold {
   position: relative;
-  height: 125vh;
+  height: 110vh;
 }
 
 .background {
@@ -132,34 +132,31 @@ a {
   right: 75px;
 }
 
-.benefits-front {
-  width: 266px;
-  position: absolute;
-  float: right;
-}
-
 .container {
   background-color: #fff;
-  height: 80vh;
+  height: 844px;
 }
 
 .row {
   width: 1170px;
+  height: 100%;
   margin: 0 auto;
   position: relative;
 }
 
 h2 {
+  margin-top: 40%;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 52px;
   font-weight: 100;
   color: #5a646e;
   -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
 }
 
 p {
   font-size: 19px;
-  font-weight: lighter;
+  font-weight: 100;
   color: #5a646e;
   font-family: 'Source Sans Pro', sans-serif;
   border-left: 1px solid;
@@ -168,8 +165,30 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
+.benefits-front {
+  margin-top: 170px;
+  margin-left: 50px;
+  width: 266px;
+  position: absolute;
+}
+
+.benefits-back {
+  width: 255px;
+  margin-top: 181px;
+  margin-left: 189px;
+}
+
+.container-2 {
+  background-color: #edeff2;
+  height: 844px;
+}
+
 .benefits-col1 {
   float: left;
-  margin-top: auto;
+  width: 50%;
+}
+
+.benefits-col2 {
+  float: right;
   width: 50%;
 }
